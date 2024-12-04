@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #d8d8d8;
+    color: #000;
+    font-size: 16px;
+}
+
+/* Estilo do header */
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #d8d8d8;
+    box-shadow: 0px 5px 20px #797878;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #444444;
+}
+
+/* Estilo do formulário de contato */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form table {
+    width: 100%;
+}
+form table tr td {
+    padding: 10px 5px;
+}
+form label {
+    display: block;
+    font-size: 14px;
+    color: #d8d8d8;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #b3b3b3d2;
+    box-shadow: 0 0 8px rgba(243, 156, 18, 0.5);
+    outline: none;
+}
+form input::placeholder,
+form textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+form textarea {
+    resize: none;
+}
+form .btn-comprar {
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #b3b3b3d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form .btn-comprar:hover {
+    background-color: #504e4ed2;
+}
+footer {
+    background-color: #727171;
+    padding: 30px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    max-width: 200px;
+    text-align: left;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #080501;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #050505;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social li a {
+    font-size: 14px;
+}
+
+.footer-copy {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 10px;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Permanent Marker', cursive;
+}
