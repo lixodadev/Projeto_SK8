@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #d8d8d8;
+    background-color: #525050;
     color: #000;
     font-size: 16px;
 }
@@ -16,8 +16,8 @@ body {
 header {
     width: 100%;
     height: 80px;
-    background-color: #d8d8d8;
-    box-shadow: 0px 5px 20px #797878;
+    background-color: #5250508;
+    box-shadow: 0px 5px 20px #383737;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +49,7 @@ header {
 }
 
 .menu li a:hover {
-    background-color: #444444;
+    background-color: #797878;
 }
 
 /* Estilo do formulário de contato */
@@ -57,7 +57,7 @@ form {
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
-    background-color: #222;
+    background-color: #4e4d4d;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -181,6 +181,8 @@ footer {
     margin-top: 10px;
 }
 h1{
+    color: #d8d5d5;
+    filter: ;
     font-size: 48px;
     font-family: 'Permanent Marker', cursive;
 }
